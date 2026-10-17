@@ -108,7 +108,6 @@ export function computeQualityProfile(forceReducedMotion?: boolean): QualityProf
         webglSupported: true,
       };
     case 'low':
-    case 'minimal':
     default:
       return {
         tier,
